@@ -1,24 +1,24 @@
 1.)		In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
 ANS)			
 			*             	:				EXPRESSION
-			'hello'					:				VALUE
-			-87.8						:				VALUE
-			- 							:				EXPRESSION
-			/ 							:				EXPRESSION
-			+								:				EXPRESSION
-			6 							:				VALUE
+			'hello'		:				VALUE
+			-87.8		:				VALUE
+			- 		:				EXPRESSION
+			/ 		:				EXPRESSION
+			+		:				EXPRESSION
+			6 		:				VALUE
 2.)		What is the difference between string and variable?
 ANS)	STRING:	It is the sequence of characters which is written inside single quotes or double quotes.
-											eg: s="suneeth"
-											here "suneeth"=string
-			VARIABLES:	It is the reserve memory locations used to store the values.
-											eg: s="suneeth"
-											here s=variables
+						eg: s="suneeth"
+						here "suneeth"=string
+	VARIABLES:	It is the reserve memory locations used to store the values.
+						eg: s="suneeth"
+					 	here s=variables
 			
-					VARIABLEs are the store of information on the other hand string is the type of information to be store in the variable.  
+	VARIABLEs are the store of information on the other hand string is the type of information to be store in the variable.  
 3.)	 Describe three different data types.
 ANS)		The diffrent types are:
-				*	INTEGERS
+				* INTEGERS
 				* STRINGS
 				* FLOAT
 				* COMPLEX
@@ -28,8 +28,8 @@ ANS)		The diffrent types are:
 ANS)	Expression is the combination of values, variables, operator and calls to functions.
 			Expression is a representation of something like numbers, strings, list, etc
 5.)	 This assignment statements, like spam = 10. What is the difference between an expression and a statement?
-ANS) EXPRESSION: Expression represents something like numbers, strings, operators, etc,
-								 Expression is the combination of number, string, operators and calls to function.
-		 STATEMENT:  Any assignment to a variable or function is called a statement, anything which does some operations is called as statement,
-		 						 All statement consist of expression but no expression can consist a statement.
+ANS)	 EXPRESSION: Expression represents something like numbers, strings, operators, etc,
+		Expression is the combination of number, string, operators and calls to function.
+	 STATEMENT:  Any assignment to a variable or function is called a statement, anything which does some operations is called as statement,
+		     All statement consist of expression but no expression can consist a statement.
 								 
