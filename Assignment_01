@@ -32,4 +32,13 @@ ANS)	 EXPRESSION: Expression represents something like numbers, strings, operato
 		Expression is the combination of number, string, operators and calls to function.
 	 STATEMENT:  Any assignment to a variable or function is called a statement, anything which does some operations is called as statement,
 		     All statement consist of expression but no expression can consist a statement.
-								 
+6.)	 After running the following code, what does the variable bacon contain?
+	bacon = 22
+	bacon + 1
+ANS) 	bacon will be equal to 23
+7.)	What should the values of the following two terms be?
+	'spam' + 'spamspam'
+	'spam' * 3
+ANS) 	the output of both will be: 'spamspamspam'
+
+
