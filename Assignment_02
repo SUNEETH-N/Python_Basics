@@ -1,1 +1,13 @@
-
+1.)   What are the two values of the Boolean data type? How do you write them?
+ANS)	The two values of boolean data type and is written as :
+			 True and False
+2.)		What are the three different types of Boolean operators?
+ANS)	AND, OR and NOT are the three different types of boolean operators
+3.) 	Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+ANS)	AND OPERATOR: When both the inputs are True then the output will be true.
+			Truth table :
+					A		B		Y=A.B
+					0		0			0
+					0		1			0
+					1		0			0
+					1		1			1
