@@ -56,6 +56,57 @@ ANS)    i) "=" this is used as the assignment operator to assign the value onthe
 					print('ham')		# Block 1, Block 3 prints "ham"
 				print('spam')			# Block 1, print "spam"
 			print('spam')				# terminates from the the loop and print "spam"
+		Hence there are three blocks in this code.
+8.) 	Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+ANS)	spam = n
+	if spam == 1:
+	    print("Hello")
+	elif spam == 2:
+	    print("Howdy")
+	else:
+	    print("Greetings!")
 
-
-
+		here n = 1,2,3,......
+9.)	If your programme is stuck in an endless loop, what keys you’ll press?
+ANS)	We can make use of control statement to terminatee or continue the loop in those kind of programs to still execute the program.
+	the control statements are "break" and "continue"
+10.) 	How can you tell the difference between break and continue?
+ANS)	i) Break - break is used to terminate from the loop as soon as the compiler execute break keyword and it is unecessary what ever the code may be after break keyword
+	eg:
+		a=10
+		while a>9:
+			print("yes the value is greater than 9")
+			break
+			if a>=5:
+				print("the value is greater than 5")
+		
+	ii) Continue - as soon as the compiler executes the keyword continue it will go on continuing the in the same loop without terminating from the loop and 
+		execute all the other lines after the continue statement.
+		
+	eg:
+		a=1
+		while a<10:
+    			if a==4:
+       				a=a+1
+        			continue
+    			else:
+       				print(a)
+        			a=a+1
+11.) 	In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+ANS)	range()	is the function used to get the series of integers in a sequence given.
+	range(10) 	-  This has only stop point is mentioned in the series of number from 0 to 10
+	range(0,10)	-  This has both start as well as stop point mentioned in the statement as the series of number from 0 to 10
+	range(0,10,1)	-  This has all the i,e. start,stop and step mentioned in the statement as the series of number from 0 to 10 in a step size of 1
+12.) Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+ANS)	Printing 1 to 10 using for loop
+	i)	for i in range(1,11):
+    			print(i)
+	Printing 1 to 10 using while loop
+    	ii)	a=1
+		while a in range(1,11):
+			print(a)
+			a=a+1
+13.) If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+ANS)		import spam
+		spam.bacon()
+	The function can be called by "spam.bacon()"
