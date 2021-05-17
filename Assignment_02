@@ -4,10 +4,36 @@ ANS)	The two values of boolean data type and is written as :
 2.)		What are the three different types of Boolean operators?
 ANS)	AND, OR and NOT are the three different types of boolean operators
 3.) 	Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
-ANS)	AND OPERATOR: When both the inputs are True then the output will be true.
+ANS)	i) AND OPERATOR: When both the inputs are True then the output will be true.
 			Truth table :
-					A		B		Y=A.B
+					A		B		      Y=A.B
 					0		0			0
 					0		1			0
 					1		0			0
 					1		1			1
+	ii) OR OPERATOR: When any one input is True the output will be True.
+			Truth table:
+					A		B		      Y=A+B
+					0		0			0
+					0		1			1
+					1		0			1
+					1		1			1
+	iii) NOT OPERATOR: When the input is True then the output will ve False and vice-versa.
+			Truth table:
+					A	     Y=A^-1
+					0		1
+					1		0
+4.)	What are the values of the following expressions?
+ANS)
+(5 > 4) and (3 == 5)					:			True
+not (5 > 4)						:			False
+(5 > 4) or (3 == 5)					:			True
+not ((5 > 4) or (3 == 5))				:			False
+(True and True) and (True == False)			:			False
+(not False) or (not True)				:			True
+
+5.)	What are the six comparison operators?
+ANS)	<,>,>=,<=,==,!= These are the six comparison operators used in python.
+
+
+
