@@ -34,6 +34,28 @@ not ((5 > 4) or (3 == 5))				:			False
 
 5.)	What are the six comparison operators?
 ANS)	<,>,>=,<=,==,!= These are the six comparison operators used in python.
+6.) 	How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+ANS)    i) "=" this is used as the assignment operator to assign the value onthe right to the variable on the left.
+	eg:	a=10 here a - this is variable 
+			  10 - value
+	ii) "==" this is used as equal to operator to check the value or variable on the left is equal to the value or variable on the right.
+	eg:	
+	a=10
+	b=20
+	if a==b:
+		print(a+b)
+	else:
+	print("the values are not equal")
+7.)	Identify the three blocks in this code:
+			spam = 0				# value of spam
+			if spam == 10:				# Block 1, if it is False it will terminate to the last line, if it is True enters in 
+				print('eggs')			# Block 1, if True print 'eggs'
+				if spam > 5:			# Block 1, if False terminates and if True enter in to Block 2 
+					print('bacon')		# Block 1, if Block 2 is True print "bacon"
+				else:				# Block 1, Block 3 is used to print default "ham"
+					print('ham')		# Block 1, Block 3 prints "ham"
+				print('spam')			# Block 1, print "spam"
+			print('spam')				# terminates from the the loop and print "spam"
 
 
 
